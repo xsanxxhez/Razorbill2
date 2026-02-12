@@ -1,0 +1,10 @@
+#deckgl-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.deck-tooltip {
+  pointer-events: none;
+  z-index: 1000;
+}

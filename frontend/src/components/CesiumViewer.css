@@ -1,0 +1,15 @@
+.cesium-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.cesium-viewer {
+  width: 100%;
+  height: 100%;
+}
+
+.cesium-viewer-cesiumWidgetContainer {
+  width: 100%;
+  height: 100%;
+}

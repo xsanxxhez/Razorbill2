@@ -1,0 +1,20 @@
+.globe-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: #000;
+}
+
+.globe-container canvas {
+  outline: none;
+}
+
+.scene-tooltip {
+  background: rgba(0, 0, 0, 0.9) !important;
+  color: #fff !important;
+  border-radius: 8px !important;
+  padding: 8px 12px !important;
+  font-size: 13px !important;
+  font-family: 'SF Mono', monospace !important;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5) !important;
+}

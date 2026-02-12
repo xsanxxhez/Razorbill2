@@ -1,0 +1,29 @@
+.maplibre-container {
+  font-family: 'SF Mono', monospace;
+}
+
+.maplibregl-popup-content {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  border-radius: 8px;
+  padding: 12px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
+.maplibregl-popup-tip {
+  border-top-color: rgba(255, 255, 255, 0.95);
+}
+
+.maplibregl-ctrl-group {
+  background: rgba(0, 0, 0, 0.8) !important;
+  border-radius: 8px;
+}
+
+.maplibregl-ctrl-group button {
+  background-color: rgba(0, 0, 0, 0.8) !important;
+  color: #fff !important;
+}
+
+.maplibregl-ctrl-group button:hover {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+}

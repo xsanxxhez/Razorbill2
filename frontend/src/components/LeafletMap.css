@@ -1,0 +1,48 @@
+.leaflet-container {
+  background: #0a0a0a;
+  font-family: 'SF Mono', monospace;
+}
+
+.feature-popup {
+  background: rgba(10, 10, 10, 0.95);
+  color: #fff;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 13px;
+  line-height: 1.6;
+  border: 1px solid rgba(100, 200, 255, 0.3);
+}
+
+.earthquake-popup {
+  background: rgba(255, 50, 50, 0.95);
+  color: #fff;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.leaflet-popup-content-wrapper {
+  background: transparent;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.8);
+  border: none;
+  padding: 0;
+}
+
+.leaflet-popup-tip {
+  background: rgba(10, 10, 10, 0.95);
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 0.6; transform: scale(1); }
+  50% { opacity: 1; transform: scale(1.1); }
+}
+
+.leaflet-interactive {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
