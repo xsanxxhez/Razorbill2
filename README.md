@@ -24,27 +24,11 @@ The platform combines a 3D globe (“Razorball”) with an NLP-driven AI engine 
 - **Data layer exploration**  
   Overlay and inspect multiple thematic layers and drill into entities with contextual metadata.
 
-- **NLP → Geospatial objects**  
-  The AI engine can parse natural language requests and transform “any input data” into structured geospatial objects that can be visualized and analyzed.
-
 - **Pipeline-first analysis concept**  
   Designed around connected pipelines: ingest → normalize → analyze → visualize, enabling large-scale research flows and statistical edge discovery.
 
-- **Probabilistic signal adjustment (research direction)**  
-  Intended to support probabilistic calibration/adjustment of signals, with the goal of maximizing expected return under uncertainty.
-
 - **Web3 privacy-preserving data aggregation (planned)**  
   A future module aims to serve as an independent data aggregator sourced directly from individual contributors, designed to preserve contributor anonymity when providing sensitive data without legal consequences.
-
----
-
-## Screenshots
-
-Place your screenshot here:
-
-- `./docs/screenshot.png`
-
-(You can replace it with a GIF later.)
 
 ---
 
