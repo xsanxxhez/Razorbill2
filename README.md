@@ -1,128 +1,64 @@
 
-Razorbill — Geospatial AI Analysis Platform (Demo)
-A raw demo of a geospatial AI analysis platform designed for quantitative analysts and quant traders.
 
-Overview
-Razorbill is an experimental full‑stack prototype that combines a 3D geospatial visualizer (“Razorball”) with an NLP‑driven AI layer and data pipelines for exploratory analysis. The goal is to turn heterogeneous inputs (natural language prompts, structured datasets, or external data sources) into actionable geospatial objects and analytical layers, enabling analysts to search for statistical edge and refine hypotheses through probabilistic framing.
+# Razorbill — Geospatial AI Analysis Platform (Demo)
 
-This repository represents an early-stage demo and is currently frozen due to technical and financial constraints.
+A raw, early-stage demo of a geospatial AI analysis platform for **quantitative analysts and quant traders** — built to visualize multi-source data layers, run research-grade analysis pipelines, and turn unstructured inputs into actionable geospatial objects.
+
 <img width="1710" height="1107" alt="image" src="https://github.com/user-attachments/assets/62b7b1ef-47d8-4604-bc0b-89e4a83e1610" />
-What it can do (demo scope)
-3D geospatial visualization of data layers (interactive globe viewer).
 
-Render and explore multiple thematic layers (e.g., roads/buildings/parks/water, weather/temperature, population/density, earthquakes, pollution, satellite imagery — depending on connected sources).
+---
 
-NLP-assisted “data routing”:
+## Pitch
 
-Interprets user queries and routes them to the most relevant datasource.
+Razorbill explores a simple idea: markets, people, climate, and infrastructure are spatial systems — and many “edges” appear when you look at data geographically.
 
-Extracts location + requested layer type from natural language.
+The platform combines a 3D globe (“Razorball”) with an NLP-driven AI engine that can interpret requests and translate disparate inputs into geospatial layers. The long-term vision is a research environment where analysts can ingest vast datasets, test hypotheses, and refine probabilistic signals to maximize expected ROI.
 
-Large-scale analysis concept (prototype direction):
+---
 
-Connect pipelines for ingest → transform → analyze → visualize.
+## Demo highlights
 
-Statistical exploration to identify potential edge (hypothesis generation).
+- **3D geospatial visualization (“Razorball”)**  
+  Render and explore any supported layer as real geospatial primitives (points/lines/polygons) on an interactive globe.
 
-Probabilistic adjustment of signals (research direction) to maximize expected ROI (conceptual in this demo).
+- **Data layer exploration**  
+  Overlay and inspect multiple thematic layers and drill into entities with contextual metadata.
 
-Privacy-preserving Web3 direction (planned):
+- **NLP → Geospatial objects**  
+  The AI engine can parse natural language requests and transform “any input data” into structured geospatial objects that can be visualized and analyzed.
 
-A blockchain-enabled application intended to act as an independent data aggregator.
+- **Pipeline-first analysis concept**  
+  Designed around connected pipelines: ingest → normalize → analyze → visualize, enabling large-scale research flows and statistical edge discovery.
 
-Designed to preserve anonymity for individuals providing sensitive data, helping reduce legal exposure risks for data contributors.
+- **Probabilistic signal adjustment (research direction)**  
+  Intended to support probabilistic calibration/adjustment of signals, with the goal of maximizing expected return under uncertainty.
 
-Architecture
-This repo is split into two parts:
+- **Web3 privacy-preserving data aggregation (planned)**  
+  A future module aims to serve as an independent data aggregator sourced directly from individual contributors, designed to preserve contributor anonymity when providing sensitive data without legal consequences.
 
-frontend/ — Vite + React UI with CesiumJS-based 3D visualization (“Razorball” viewer).
+---
 
-backend/ — Python backend (Flask) that powers query interpretation, datasource routing, and AI-assisted parsing.
+## Screenshots
 
-Tech stack (current)
-Frontend:
+Place your screenshot here:
 
-Vite + React
+- `./docs/screenshot.png`
 
-CesiumJS (3D globe / terrain / layer rendering)
+(You can replace it with a GIF later.)
 
-Backend:
+---
 
-Python + Flask
+## Disclaimer
 
-OpenRouter API for LLM calls (query routing + request parsing)
+- **Prototype quality:** Razorbill is a raw demo/proof-of-concept and is not production-ready.
+- **No financial advice:** This project is for research and engineering exploration only and does not constitute investment advice.
+- **Project status:** The project is currently **frozen** due to maintenance and funding constraints that are not accessible to the co-founders at this time.
 
-Requests-based HTTP client
+---
 
-Key concepts (high-level)
-Razorball: a 3D viewer that can display arbitrary “data layers” as geospatial objects.
+## Team
 
-NLP → Geospatial objects: the AI layer aims to transform loosely structured input into real geospatial primitives (points/lines/polygons) that can be visualized and analyzed.
-
-Quant-oriented analysis: pipelines are intended to support statistical research workflows and signal evaluation.
-
-Getting started (local)
-Prerequisites
-Node.js 18+
-
-Python 3.10+ (recommended)
-
-(Optional) Cesium Ion token (for terrain / assets)
-
-OpenRouter API key
-
-1) Frontend
-bash
-cd frontend
-npm install
-npm run dev
-Open: http://localhost:5173
-
-2) Backend
-bash
-cd backend
-python3 -m venv venv
-source venv/bin/activate
-
-pip install -r requirements.txt
-python app.py
-If requirements.txt is missing or incomplete (common in raw demos), install dependencies manually:
-
-bash
-pip install flask flask-cors python-dotenv requests h3
-3) Environment variables (IMPORTANT)
-Do not hardcode API keys in source code. Use environment variables instead.
-​
-
-Backend (backend/.env, add to .gitignore):
-
-
-​
-
-Project status
-Razorbill is currently frozen. Maintaining and scaling the platform requires infrastructure, operational effort, and funding that are currently not accessible to the co-founders.
-
-Roadmap (planned / ideas)
-More robust ingestion and ETL pipelines (batch + streaming).
-
-Stronger statistical toolchain for quant research workflows (feature engineering, evaluation, simulation).
-
-Model/router improvements: better schema validation, more deterministic outputs.
-
-Web3 aggregator module for anonymous, consumer-sourced sensitive data.
-
-Production-grade deployment and observability.
-
-Security note
-If any secret keys were ever committed:
-
-Revoke/regenerate them immediately.
-
-Remove them from history before making the repo public.
-
-Team
 Co-founders:
+- Alexander Ageenko
+- Eugene Hancharou
 
-Alexander Ageenko
-
-Eugene Hancharou
