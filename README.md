@@ -7,7 +7,7 @@ A raw, early-stage demo of a geospatial AI analysis platform for **quantitative 
 <img width="1710" height="1107" alt="image" src="https://github.com/user-attachments/assets/62b7b1ef-47d8-4604-bc0b-89e4a83e1610" />
 <img width="1710" height="1107" alt="image" src="https://github.com/user-attachments/assets/e088a5d3-cd18-41d1-8bbc-b5f365f82ad1" />
 <img width="1710" height="1107" alt="image" src="https://github.com/user-attachments/assets/f7fec9f8-5fbc-4f9b-8748-0ab6f92acf62" />
-https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fwww.bto.org%2Flearn%2Fabout-birds%2Fbirdfacts%2Frazorbill&ved=0CBYQjRxqFwoTCKCc_rq22ZIDFQAAAAAdAAAAABAI&opi=89978449<img width="560" height="560" alt="image" src="https://github.com/user-attachments/assets/b196b9ff-f52d-4f20-9aa7-12361b9cdd3b" />
+<img width="560" height="560" alt="image" src="https://github.com/user-attachments/assets/b196b9ff-f52d-4f20-9aa7-12361b9cdd3b" />
 
 
 ---
