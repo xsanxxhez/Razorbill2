@@ -1,9 +1,11 @@
 
 
 # Razorbill — Geospatial AI Analysis Platform (Demo)
-<img width="500" height="333" alt="image" src="https://github.com/user-attachments/assets/02107d4e-afbc-4bde-9351-e237cabc58f0" />
 
 A raw, early-stage demo of a geospatial AI analysis platform for **quantitative analysts and quant traders** — built to visualize multi-source data layers, run research-grade analysis pipelines, and turn unstructured inputs into actionable geospatial objects.
+
+<img width="500" height="333" alt="image" src="https://github.com/user-attachments/assets/02107d4e-afbc-4bde-9351-e237cabc58f0" />
+
 
 <img width="1710" height="1107" alt="image" src="https://github.com/user-attachments/assets/62b7b1ef-47d8-4604-bc0b-89e4a83e1610" />
 <img width="1710" height="1107" alt="image" src="https://github.com/user-attachments/assets/e088a5d3-cd18-41d1-8bbc-b5f365f82ad1" />
