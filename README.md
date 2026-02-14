@@ -116,7 +116,7 @@ The platform combines a 3D globe (“Razorball”) with an NLP-driven AI engine 
 
 ## Team of RAZORBILL
 <img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/b196b9ff-f52d-4f20-9aa7-12361b9cdd3b" />
-Co-founders:
+## Co-founders:
 - Alexander Ageenko
 - Eugene Hancharou
 
