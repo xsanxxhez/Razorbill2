@@ -7,7 +7,7 @@ A raw, early-stage demo of a geospatial AI analysis platform for **quantitative 
 <img width="1710" height="1107" alt="image" src="https://github.com/user-attachments/assets/62b7b1ef-47d8-4604-bc0b-89e4a83e1610" />
 <img width="1710" height="1107" alt="image" src="https://github.com/user-attachments/assets/e088a5d3-cd18-41d1-8bbc-b5f365f82ad1" />
 <img width="1710" height="1107" alt="image" src="https://github.com/user-attachments/assets/f7fec9f8-5fbc-4f9b-8748-0ab6f92acf62" />
-<img width="560" height="560" alt="image" src="https://github.com/user-attachments/assets/b196b9ff-f52d-4f20-9aa7-12361b9cdd3b" />
+
 
 
 ---
@@ -113,8 +113,8 @@ The platform combines a 3D globe (“Razorball”) with an NLP-driven AI engine 
 - Standardized GeoJSON output format
 - 3D visualization with dynamic styling based on data values
 
-
-## Team
+<img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/b196b9ff-f52d-4f20-9aa7-12361b9cdd3b" />
+## Team of RAZORBILL
 
 Co-founders:
 - Alexander Ageenko
