@@ -22,8 +22,11 @@ The platform combines a 3D globe (“Razorball”) with an NLP-driven AI engine 
 
 ## Demo highlights
 
-- **3D geospatial visualization (“Razorball”)**  
+- **3D geospatial visualization on “Razorball”**  
   Render and explore any supported layer as real geospatial primitives (points/lines/polygons) on an interactive globe.
+
+- **ChatGPT4o as your assistant analyzes prompts**  
+OpenRouter API integrated with custom preferences
 
 - **Data layer exploration**  
   Overlay and inspect multiple thematic layers and drill into entities with contextual metadata.
